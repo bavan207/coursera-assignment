@@ -1,0 +1,98 @@
+ * {
+        box-sizing: border-box;
+    }
+     body {
+ background-image: url("bg.jpg");
+ background-color: black;
+}
+    
+
+    h1 {
+       margin-bottom: 25px;
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    }
+
+    section {
+        position: relative;
+        padding: 20px;
+        width: 90%;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: gray;
+        border: 3.5px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        box-shadow: 10px 10px;
+    }
+
+    .one {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: -3px -3px 3px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 100%;
+        font-weight: bold;
+        background-color:yellow;
+
+    }
+  .box {
+         padding: 5px;
+        border: none;
+        background-color: gray;
+        color: black;
+        margin: 3px ;
+        height: 150px;
+            }
+
+    .row {
+        width: 90%;
+    }
+
+    div:hover {
+  background-color: blue;
+    }
+  p:hover {
+  background-color:pink;
+}
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
